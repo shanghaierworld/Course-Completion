@@ -1,0 +1,245 @@
+ [
+  {
+    "Feature": "Student_ID",
+    "Category": "Students",
+    "Description": "Unique identifier for each student",
+    "Type": "object"
+  },
+  {
+    "Feature": "Name",
+    "Category": "Students",
+    "Description": "Student name",
+    "Type": "object"
+  },
+  {
+    "Feature": "Gender",
+    "Category": "Students",
+    "Description": "Student gender",
+    "Type": "object"
+  },
+  {
+    "Feature": "Age",
+    "Category": "Students",
+    "Description": "Student age",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Education_Level",
+    "Category": "Students",
+    "Description": "Highest education level of student",
+    "Type": "object"
+  },
+  {
+    "Feature": "Employment_Status",
+    "Category": "Students",
+    "Description": "Current employment status",
+    "Type": "object"
+  },
+  {
+    "Feature": "City",
+    "Category": "Students",
+    "Description": "City of residence",
+    "Type": "object"
+  },
+  {
+    "Feature": "Device_Type",
+    "Category": "Other",
+    "Description": "Device used to access platform",
+    "Type": "object"
+  },
+  {
+    "Feature": "Internet_Connection_Quality",
+    "Category": "Other",
+    "Description": "Quality of internet connection",
+    "Type": "object"
+  },
+  {
+    "Feature": "Course_ID",
+    "Category": "Course_Info",
+    "Description": "Unique course identifier",
+    "Type": "object"
+  },
+  {
+    "Feature": "Course_Name",
+    "Category": "Course_Info",
+    "Description": "Name of the course",
+    "Type": "object"
+  },
+  {
+    "Feature": "Category",
+    "Category": "Course_Info",
+    "Description": "Course category or subject",
+    "Type": "object"
+  },
+  {
+    "Feature": "Course_Level",
+    "Category": "Course_Info",
+    "Description": "Level of the course",
+    "Type": "object"
+  },
+  {
+    "Feature": "Course_Duration_Days",
+    "Category": "Course_Info",
+    "Description": "Duration of course in days",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Instructor_Rating",
+    "Category": "Course_Info",
+    "Description": "Rating of instructor",
+    "Type": "float64"
+  },
+  {
+    "Feature": "Login_Frequency",
+    "Category": "Engagement",
+    "Description": "Number of logins by student",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Average_Session_Duration_Min",
+    "Category": "Engagement",
+    "Description": "Average session duration in minutes",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Video_Completion_Ratio",
+    "Category": "Engagement",
+    "Description": "Proportion of video content completed",
+    "Type": "float64"
+  },
+  {
+    "Feature": "Discussion_Participation",
+    "Category": "Engagement",
+    "Description": "Number of discussions participated",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Time_Spent_Hours",
+    "Category": "Engagement",
+    "Description": "Total time spent on platform",
+    "Type": "float64"
+  },
+  {
+    "Feature": "Days_Since_Last_Login",
+    "Category": "Engagement",
+    "Description": "Days since last login",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Notifications_Checked",
+    "Category": "Engagement",
+    "Description": "Number of notifications checked",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Peer_Interaction_Score",
+    "Category": "Engagement",
+    "Description": "Interaction score with peers",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Assignments_Submitted",
+    "Category": "Performance",
+    "Description": "Number of assignments submitted",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Assignments_Missed",
+    "Category": "Performance",
+    "Description": "Number of assignments missed",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Quiz_Attempts",
+    "Category": "Performance",
+    "Description": "Number of quiz attempts",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Quiz_Score_Avg",
+    "Category": "Performance",
+    "Description": "Average quiz score",
+    "Type": "float64"
+  },
+  {
+    "Feature": "Project_Grade",
+    "Category": "Performance",
+    "Description": "Grade of project",
+    "Type": "float64"
+  },
+  {
+    "Feature": "Progress_Percentage",
+    "Category": "Performance",
+    "Description": "Overall course progress",
+    "Type": "float64"
+  },
+  {
+    "Feature": "Rewatch_count",
+    "Category": "Engagement",
+    "Description": "Number of times review resources",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Enrollment_Date",
+    "Category": "Students",
+    "Description": "Enrollment date for the course",
+    "Type": "object"
+  },
+  {
+    "Feature": "Payment_Mode",
+    "Category": "Other",
+    "Description": "Payment method for the course",
+    "Type": "object"
+  },
+  {
+    "Feature": "Fee_Paid",
+    "Category": "other",
+    "Description": " whether Payment is made",
+    "Type": "object"
+  },
+  {
+    "Feature": "Discount_Used",
+    "Category": "other",
+    "Description": " whether there is a discount",
+    "Type": "object"
+  },
+  {
+    "Feature": "Payment_Amount",
+    "Category": "other",
+    "Description": " price for the course",
+    "Type": "int64"
+  },
+  {
+    "Feature": "App_Usage_Percentage",
+    "Category": "other",
+    "Description": " use of the payment app",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Reminder_Emails_Clicked",
+    "Category": "other",
+    "Description": " number of email reminder is clicked",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Support_Tickets_Raised",
+    "Category": "other",
+    "Description": " Amount of the discount",
+    "Type": "int64"
+  },
+  {
+    "Feature": "Satisfaction_Rating",
+    "Category": "Students",
+    "Description": " Course satisfaction for the students",
+    "Type": "float64"
+  },
+  {
+    "Feature": "Completed",
+    "Category": "Performance",
+    "Description": "Performance",
+    "Type": " Whether course is completed",
+    "__parsed_extra": [
+      "object"
+    ]
+  }
+]

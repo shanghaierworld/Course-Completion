@@ -1,0 +1,41 @@
+﻿Feature,Category,Description,Type
+Student_ID,Students,Unique identifier for each student,object
+Name,Students,Student name,object
+Gender,Students,Student gender,object
+Age,Students,Student age,int64
+Education_Level,Students,Highest education level of student,object
+Employment_Status,Students,Current employment status,object
+City,Students,City of residence,object
+Device_Type,Other,Device used to access platform,object
+Internet_Connection_Quality,Other,Quality of internet connection,object
+Course_ID,Course_Info,Unique course identifier,object
+Course_Name,Course_Info,Name of the course,object
+Category,Course_Info,Course category or subject,object
+Course_Level,Course_Info,Level of the course,object
+Course_Duration_Days,Course_Info,Duration of course in days,int64
+Instructor_Rating,Course_Info,Rating of instructor,float64
+Login_Frequency,Engagement,Number of logins by student,int64
+Average_Session_Duration_Min,Engagement,Average session duration in minutes,int64
+Video_Completion_Rate,Engagement,Proportion of video content completed,float64
+Discussion_Participation,Engagement,Number of discussions participated,int64
+Time_Spent_Hours,Engagement,Total time spent on platform,float64
+Days_Since_Last_Login,Engagement,Days since last login,int64
+Notifications_Checked,Engagement,Number of notifications checked,int64
+Peer_Interaction_Score,Engagement,Interaction score with peers,int64
+Assignments_Submitted,Performance,Number of assignments submitted,int64
+Assignments_Missed,Performance,Number of assignments missed,int64
+Quiz_Attempts,Performance,Number of quiz attempts,int64
+Quiz_Score_Avg,Performance,Average quiz score,float64
+Project_Grade,Performance,Grade of project,float64
+Progress_Percentage,Performance,Overall course progress,float64
+Rewatch_count,Engagement,Number of times review resources,int64
+Enrollment_Date,Students,Enrollment date for the course,object
+Payment_Mode,Other,Payment method for the course,object
+Fee_Paid,other, whether Payment is made,object
+Discount_Used,other, whether there is a discount,object
+Payment_Amount,other, price for the course,int64
+App_Usage_Percentage,other, use of the payment app,int64
+Reminder_Emails_Clicked,other, number of email reminder is clicked,int64
+Support_Tickets_Raised,other, Amount of the discount,int64
+Satisfaction_Rating,Students, Course satisfaction for the students,float64
+Completed,Performance,Whether course is completed,object
